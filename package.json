@@ -2,9 +2,9 @@
   "name": "fsd-lab",
   "version": "1.0.0",
   "description": "",
-  "main": "expressapp.js",
+  "main": "set8.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node set8.js"
   },
   "keywords": [],
   "author": "",
