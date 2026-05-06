@@ -3,7 +3,9 @@ const jwt = require("jsonwebtoken");
 const app = express();
 const cors = require("cors");
 
-app.use(cors());
+app.use(cors({
+  origin: "*"
+}));
 app.use(express.json());
 const SECRET = "mysecret";
 
